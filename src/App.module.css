@@ -1,0 +1,24 @@
+.body {
+  display: grid;
+  width: 80vw;
+  grid-template-columns: 2rem 1fr 2rem;
+}
+
+.canvas {
+  grid-column: 1 / 3;
+}
+
+.prev {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.next {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.addrect {
+  grid-column: 2;
+  grid-row: 2;
+}
